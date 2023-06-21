@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <ImageView fitHeight="316.0" fitWidth="906.0" layoutX="-4.0" layoutY="33.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Downloads/Valenberg%20-%20Digital%20Artist%20_%20DeviantArt.gif" />
+         </image>
+      </ImageView>
+      <Pane layoutY="346.0" prefHeight="307.0" prefWidth="900.0" style="-fx-background-color: #1e081a;">
+         <children>
+            <ImageView fitHeight="45.0" fitWidth="297.0" layoutX="302.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/355827098_3343419029322140_2720884179885664143_n.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="-13.0" layoutY="-11.0" prefHeight="22.0" prefWidth="921.0" style="-fx-background-color: #610d33; -fx-background-radius: 30;">
+               <children>
+                  <Text fill="#f5f5f5" layoutX="7.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="☆ FREE SHIPPING⁠ ☆   ☆ FREE SHIPPING ⁠☆   ☆ FREE SHIPPING ⁠☆   ☆ FREE SHIPPING ☆   ☆ FREE SHIPPING⁠ ☆   ☆ FREE SHIPPING ⁠☆   ☆ FREE SHIPPING ⁠☆" wrappingWidth="906.0000307559967">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="button1" layoutX="120.0" layoutY="416.0" mnemonicParsing="false" onAction="#gotolight" opacity="0.53" prefHeight="214.0" prefWidth="318.0" style="-fx-background-radius: 20; -fx-background-color: #610d33;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="456.0" layoutY="413.0" mnemonicParsing="false" onAction="#gotoplant" opacity="0.53" prefHeight="214.0" prefWidth="318.0" style="-fx-background-color: #610d33; -fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="176.0" fitWidth="90.0" layoutX="576.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Life_Quotes-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="176.0" fitWidth="108.0" layoutX="232.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/7f428106-1ca3-4629-9f1d-50cf4e36a8a2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f5f5f5" layoutX="581.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acoustic">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f5f5f5" layoutX="255.0" layoutY="617.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Electric">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Pane layoutX="-5.0" prefHeight="33.0" prefWidth="906.0" style="-fx-background-color: #610d33;">
+         <children>
+            <Text fill="WHITE" layoutX="410.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEJU" wrappingWidth="85.78772337734699">
+               <font>
+                  <Font name="Georgia Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

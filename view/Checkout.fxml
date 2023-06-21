@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CheckoutController">
+   <children>
+      <Pane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: #1e081a;">
+         <children>
+            <ScrollPane layoutX="-10.0" layoutY="172.0" prefHeight="301.0" prefWidth="940.0" style="-fx-background-color: #1e081a;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="595.0" prefWidth="910.0" style="-fx-background-color: #1e081a;">
+                     <children>
+                        <VBox fx:id="myvbox" layoutX="103.0" prefHeight="597.0" prefWidth="732.0">
+                           <children>
+                              <Pane fx:id="pane1" prefHeight="130.0" prefWidth="605.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img1" fitHeight="78.0" fitWidth="47.0" layoutX="32.0" layoutY="7.0" pickOnBounds="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/download__11_-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price1" layoutX="338.0" layoutY="35.0" text="7000.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name1" layoutX="114.0" layoutY="31.0" text="Electric Guitar" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox1" layoutX="564.0" layoutY="29.0" prefHeight="25.0" prefWidth="106.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane fx:id="pane2" prefHeight="130.0" prefWidth="550.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img2" fitHeight="70.0" fitWidth="48.0" layoutX="29.0" layoutY="9.0" pickOnBounds="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/James_Tyler-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price2" layoutX="347.0" layoutY="33.0" text="10.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name2" layoutX="108.0" layoutY="30.0" text="Electric Guitar2" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox2" layoutX="566.0" layoutY="28.0" prefHeight="25.0" prefWidth="107.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane fx:id="pane3" prefHeight="127.0" prefWidth="605.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img3" fitHeight="74.0" fitWidth="63.0" layoutX="18.0" layoutY="8.0" pickOnBounds="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/download__12_-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price3" layoutX="351.0" layoutY="29.0" text="5.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name3" layoutX="107.0" layoutY="29.0" text="Electric Guitar3" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox3" layoutX="565.0" layoutY="27.0" prefHeight="25.0" prefWidth="112.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane fx:id="pane4" prefHeight="130.0" prefWidth="566.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img4" fitHeight="68.0" fitWidth="106.0" layoutX="29.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/HGHMNDS-600x600-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price4" layoutX="351.0" layoutY="29.0" text="5.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name4" layoutX="113.0" layoutY="26.0" text="Bedroom Plant" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox4" layoutX="563.0" layoutY="27.0" prefHeight="25.0" prefWidth="119.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane fx:id="pane5" layoutX="10.0" layoutY="402.0" prefHeight="130.0" prefWidth="605.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img5" fitHeight="68.0" fitWidth="106.0" layoutX="29.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/Barbie-Almalbis-Signature-Spruce-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price5" layoutX="351.0" layoutY="26.0" text="5.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name5" layoutX="113.0" layoutY="26.0" text="Bedroom Plant" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox5" layoutX="564.0" layoutY="31.0" prefHeight="25.0" prefWidth="119.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane fx:id="pane6" layoutX="10.0" layoutY="475.0" prefHeight="130.0" prefWidth="605.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;">
+                                 <children>
+                                    <ImageView fx:id="img6" fitHeight="68.0" fitWidth="106.0" layoutX="29.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/DD-Django-JR-Spruce-600x600-removebg-preview.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="price6" layoutX="351.0" layoutY="27.0" text="5.00" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="name6" layoutX="113.0" layoutY="26.0" text="Bedroom Plant" textFill="#4a4141">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choicebox6" layoutX="563.0" layoutY="25.0" prefWidth="119.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <Label layoutX="134.0" layoutY="144.0" text="Item" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="440.0" layoutY="144.0" text="Price" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="673.0" layoutY="144.0" text="Quantity" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi" size="19.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutX="-3.0" layoutY="-2.0" prefHeight="129.0" prefWidth="906.0" style="-fx-background-color: #610d33;">
+         <children>
+            <Text fill="WHITE" layoutX="223.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOPPING CART" wrappingWidth="460.5214872062206">
+               <font>
+                  <Font name="Georgia Bold" size="50.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="335.0" layoutY="432.0" prefHeight="179.0" prefWidth="252.0">
+         <children>
+            <Label layoutX="32.0" layoutY="54.0" prefHeight="39.0" prefWidth="88.0" text="Total:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total" layoutX="120.0" layoutY="57.0" prefHeight="33.0" prefWidth="88.0" text="150000.00" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkoutbutton" layoutX="26.0" layoutY="111.0" mnemonicParsing="false" onAction="#checkout" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #610d33; -fx-background-radius: 20;" text="CHECKOUT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
